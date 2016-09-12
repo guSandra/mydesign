@@ -1,0 +1,376 @@
+
+/* 
+GENERAL STYLES ---------------------------- */
+
+body {
+
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	color: #36332a;
+	}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #227115;
+	}
+	
+a img {
+	border: none;
+	}	
+
+#popular a:hover{
+	border-bottom: 1px solid #d5cfc0;
+	}
+
+legend {
+	display: none;
+	}
+
+/* Required with strict doctype or extra padding may mysteriously
+appear at the bottom of images */
+img {
+	display: block; 
+	}	
+
+#content-wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 1070px;
+	}
+	
+/* 
+@FONT-FACE ---------------------------- */
+
+@font-face {
+	font-family: "Museo Sans X";
+	src: url(../fonts/MuseoSans_500.otf);
+	}
+
+#header ul a, #header h2, #home h3, #home h4, #main-video h3 ，#introduce a{
+	font-family: "Museo Sans X", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; 
+	}
+
+	
+/* 
+HEADER ---------------------------- */
+#header ul {
+	margin: 20px 0px 20px;
+	background-color:#FFCC99;
+	}
+
+#header li {
+	float: left;
+	}
+
+#header ul a {
+	float: left;
+	margin-right: 25px;
+	padding: 0 0 3px;
+	color: #fff;
+	font-size: 12px;
+	}	
+	
+#header ul a:hover {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #423b2b;
+	}	
+
+#header h1 {
+	float: left;
+	margin-left: 25px;
+	width: 266px;
+	font-size:30px;
+
+	}
+
+#header form {
+	float: right;
+	margin-right: 25px;
+	text-align: right;
+	width: 249px;
+	}
+
+#header form label {
+	position: absolute;
+  	left: -9999px;
+	}
+
+/* Attribute selector */
+#header form input[type="text"] {
+	display: block;
+	float: left;
+	margin: 0;
+	height: 20px;
+	padding: 6px 0 0 28px;
+	border: 0;
+	width: 180px;
+	height: 20px;
+	color: #333;
+	background: url(../img/search-bg.gif) no-repeat;
+	}
+
+/* Attribute selector */
+#header form input[type="image"] {
+	float: left;
+	}	
+
+/* Used when the "watermark" is in place (removed for user entry) */	
+#header form input.watermark { 
+	color: #64644d;
+	}
+
+
+/* 
+MAIN CONTENT (HOME) ---------------------------- */
+
+#main {
+	float: left;
+	margin: 36px 10px 40px 0;
+	width: 710px;
+	}
+	
+#main h3 {
+	color: #227115;
+	font-size: 14px;
+	text-transform: uppercase;
+	}	
+	
+#main-featurette {
+	min-height: 130px;
+	font-size: 11px;
+	line-height: 13px;
+	background-color: #f1efe8;
+	}
+
+#main-featurette h4 {
+	margin-top: 14px;
+	font-size: 12px;
+	color: #af670a;	
+	}
+
+#main-featurette p {
+	margin-top: 6px;
+	}
+
+#featurette1 {
+	position: relative;
+	margin: 23px 0 0 25px;
+	padding-left: 135px;
+	width: 400px;
+	}	
+
+#featurette1 p {
+	text-indent: -.3em; /* for hanging punctuation on the quotation mark */
+	}
+	
+#featurette1 img {
+	position: absolute;
+	top: -10px;
+	left: -5px;
+	}	
+
+#photos {
+	padding: 50px 0 0 27px;
+	
+	}
+
+#photos h3 {
+	margin-bottom: 18px;
+	color: #36332a;
+	font-size: 14px;
+	}	
+
+#photos a {
+	float: left;
+	padding: 10px 5px 10px 15px;
+	width: 122px;
+	height: 121px;
+	}
+	
+
+a:hover #img1, a:focus #img1  {
+	-ms-transform:scale(1.5) rotate(-3deg);	/* IE 9 */
+	-moz-transform:scale(1.5) rotate(-3deg); 	/* Firefox */
+	-webkit-transform:scale(1.5) rotate(-3deg); /* Safari 和 Chrome */
+	-o-transform:scale(1.5) rotate(-3deg);	/* Opera */
+}
+a:hover #img2, a:focus #img2  {
+	-ms-transform:scale(1.5) rotate(5deg);	/* IE 9 */
+	-moz-transform:scale(1.5) rotate(5deg); 	/* Firefox */
+	-webkit-transform:scale(1.5) rotate(5deg); /* Safari 和 Chrome */
+	-o-transform:scale(1.5) rotate(5deg);	/* Opera */
+}
+a:hover #img3, a:focus #img3  {
+	-ms-transform:scale(1.5) rotate(-7deg);	/* IE 9 */
+	-moz-transform:scale(1.5) rotate(-7deg); 	/* Firefox */
+	-webkit-transform:scale(1.5) rotate(-7deg); /* Safari 和 Chrome */
+	-o-transform:scale(1.5) rotate(-7deg);	/* Opera */
+}
+a:hover #img4, a:focus #img4  {
+	-ms-transform:scale(1.5) rotate(2deg);	/* IE 9 */
+	-moz-transform:scale(1.5) rotate(2deg); 	/* Firefox */
+	-webkit-transform:scale(1.5) rotate(2deg); /* Safari 和 Chrome */
+	-o-transform:scale(1.5) rotate(2deg);	/* Opera */
+}
+#photos img {
+	padding: 13px 15px 15px 14px;
+	-ms-transform: -webkit-transform .3s ease-in-out; 
+	-moz-transform: -webkit-transform .3s ease-in-out; 
+	-webkit-transform: -webkit-transform .3s ease-in-out; 
+	-o-transform: -webkit-transform .3s ease-in-out; 
+	background:url(../img/thumb-frame.png) no-repeat;
+	}
+	
+#introduce .intro{
+	height:150px
+	padding:10px;
+}
+#introduce h3 {
+	margin-bottom: 18px;
+	color: #36332a;
+	font-size: 14px;
+	}		
+#introduce img{
+	width:125px;
+	height:111px;
+	float:left;
+	margin-right:10px;
+}	
+
+
+
+/* 
+SECONDARY CONTENT (HOME) ---------------------------- */
+
+#secondary {
+	float: left;
+	margin-top: 36px;
+	width: 350px;
+	}
+#secondary #ticket-box{
+	border:1px solid #CC9966;
+	border-radius:25px;
+}
+
+.hot-tickets span{
+	margin-left:30px;
+	font-size:14px;
+	color:teal;	
+}
+.hot-tickets a{
+	margin-left:250px;	
+}
+
+#secondary  .ticket{
+	width:300px;
+	height:60px;
+	padding:10px;
+	padding-left:30px;
+	padding-top:20px;
+}
+
+#secondary  .ticket-name{
+	width:122px;
+	height:54px;
+	font-size:14px;
+	color:#333300;
+	
+}
+#secondary  .ticket-price{
+	width:122px;
+	height:54px;
+    margin-left:10px;	
+	color:red;
+}	
+#secondary  .ticket-price span{
+	color:#ccc;
+	text-decoration:line-through;
+}	
+#secondary  .ticket-price .btn{
+	width:80px;
+	height:20px;
+	margin-left:20px;
+}	
+
+#weather{
+	width:300px;
+	height:30px;
+	margin:0 auto;
+	margin-top:20px;
+	padding-top:5px;
+	border:1px solid #CC9966;
+}	
+#popular {
+	clear: left;
+	float: left;
+	margin: 45px 0 0 25px;
+	width: 310px;
+	}	
+	
+#popular ul {
+	float: left;
+	width: 50%;
+	margin-top: 13px;
+	font-size: 11px;
+	color: #36332a;
+	}	
+	
+#popular li {
+	padding: 2px 0;
+	}	
+	
+#popular a:link, #popular a:active, #popular a:visited {
+	color: #36332a;
+	}	
+	
+#popular a:hover {
+	color: #227115;
+	}	
+	
+#popular a strong {
+	padding-right: 8px; 
+	background: url(../img/arrow-black.png) no-repeat right center;
+	}	
+	
+
+/* 
+FOOTER ---------------------------- */
+	
+#footer {
+	clear: left;
+	padding: 40px 0 60px;
+	min-height: 0;
+	color: #8a867c;
+	font-size: 10px;
+	text-align: center;
+	background: url(../img/bg-footer.gif) no-repeat center top;
+	}	
+
+#footer p {
+	padding-bottom: 8px;
+	}
+
+#footer-links { 
+	margin-bottom: 10px;
+	}
+
+#footer-links a {
+	padding: 0 10px;
+	}
+
+
+	
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
+.clearfix {display: inline-block;}
+.clearfix {display: block;}
+.fl{float:left}
