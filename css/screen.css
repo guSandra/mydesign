@@ -141,7 +141,7 @@ MAIN CONTENT (HOME) ---------------------------- */
 #main-featurette {
 	min-height: 130px;
 	font-size: 11px;
-	line-height: 13px;
+	line-height: 20px;
 	background-color: #f1efe8;
 	}
 
@@ -159,7 +159,7 @@ MAIN CONTENT (HOME) ---------------------------- */
 	position: relative;
 	margin: 23px 0 0 25px;
 	padding-left: 135px;
-	width: 400px;
+	width: 520px;
 	}	
 
 #featurette1 p {
